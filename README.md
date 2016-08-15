@@ -1,3 +1,5 @@
+(Taken from https://github.com/googlesamples/android-testing)
+
 # Basic sample for Espresso
 
 *If you are new to Espresso, try this sample first.*
