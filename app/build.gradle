@@ -19,7 +19,7 @@ android {
     }
 }
 
-task run(type: Exec) {
+task connectDevice(type: Exec) {
     def adb = "$System.env.ANDROID_HOME/platform-tools/adb"
     commandLine "$adb", 'tcpip', '5555'
     commandLine "$adb", 'connect', '174.16.101.128'
